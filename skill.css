@@ -1,10 +1,11 @@
-/* body{ */
+body{
     /* height: 100vh; */
     /* background-image:url(./background2.png);
     background-repeat: no-repeat;
     background-size: cover; */
+    background-color: aliceblue;
 
-/* } */
+ }
 
 header{
     background-color: black;
@@ -53,7 +54,7 @@ height: 150px;
 margin-top: 150px;
 margin: 0px 50px;
 /* background-color: black; */
-animation:  slideFromRight 1s ease;
+/* animation:  slideFromRight 1s ease; */
 }
 .card{
 
@@ -65,8 +66,8 @@ animation:  slideFromRight 1s ease;
     /* background-color: rgb(241, 238, 238); */
     padding-left: 30px;
     border-radius: 20px;
-    border: 1px solid blue;
-    box-shadow: 5px 5px 5px blueviolet;
+    border: 1px solid blueviolet;
+    box-shadow: 5px 5px 5px rgb(97, 140, 233);
 
 
 }
@@ -144,7 +145,7 @@ section{
 .project{
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px blueviolet;
+    box-shadow: 5px 5px 5px rgb(97, 140, 233);
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -188,13 +189,13 @@ section{
 
 footer{
     color: white;
-    height: 35px;
+    height: 40px;
     /* padding: 2px; */
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    /* margin-bottom: 40px; */
+    margin-bottom: 40px;
 
 
 }
@@ -207,7 +208,7 @@ footer{
     }
 }
 
-@keyframes slideFromRight {
+/* @keyframes slideFromRight {
     0%{
       transform:translateX(500px) ;
     }
@@ -216,4 +217,4 @@ footer{
 
     }
 
-}
+} */
