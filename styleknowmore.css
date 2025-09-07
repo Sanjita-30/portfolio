@@ -107,6 +107,7 @@ h1{
  .second-click{
     display: flex;
     justify-content: center;
+    margin-bottom: 80px;
  }
 
 .btn>a{
