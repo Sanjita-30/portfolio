@@ -1,0 +1,89 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+
+   body{
+     background: linear-gradient(39.97deg, #03d6f3 .79%, #458ff6 79.79%);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     height: 100vh;
+   }
+
+   .heading{
+    font-size: 48px;
+    position: relative;
+    bottom: 100px;
+    font-family: "Epunda Slab", serif;
+    font-weight: bolder;
+    color: white;
+   }
+
+ .btn>a{
+    text-decoration: none;
+    color: black;
+
+ }
+
+ .btn{
+    border-radius: 20px;
+    background-color: white;
+    margin:  0px 50px;
+    transition: all 1s ease;
+
+}
+
+.btn:hover{
+     background-color: rgb(199, 199, 230);
+
+}
+
+ .para{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    /* font: weight 0; */
+    color: white;
+    position: relative;
+    bottom: 80px;
+ }
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: -80px;
+
+}
+
+
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+     height: 300px;
+    width: 300px;
+    border-radius: 80%;
+    animation: updown 3s ease-in-out infinite ;
+
+}
+
+@keyframes updown {
+    0% {
+    transform: translateY(0); /* Start at original position */
+  }
+  50% {
+    transform: translateY(-20px); /* Move up by 20px */
+  }
+  100% {
+    transform: translateY(0); /* Return to original position */
+  }
+}
+
+
+
