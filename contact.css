@@ -36,10 +36,10 @@
     }
   .floating-image{
     position: fixed;
-    bottom:160px;
-    right: 640px;
+    bottom:90px;
+    right: 40px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 30px;
 
   }
